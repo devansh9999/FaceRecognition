@@ -69,7 +69,7 @@ print(trainset.shape)
 
 while True:
     ret, frame = cap.read()
-    if ret== False:
+    if ret is False:
         continue
     faces = face_cascade.detectMultiScale(frame,1.3,5)
 
