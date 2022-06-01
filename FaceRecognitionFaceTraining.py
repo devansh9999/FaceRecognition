@@ -16,7 +16,7 @@ file_name = input("Enter the name of the person :")
 while True:
     ret,frame = cap.read()
 
-    if ret==False:
+    if ret is False:
         continue
 
     
